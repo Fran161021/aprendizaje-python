@@ -1,0 +1,141 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOuBIUp6BivHQHAJ1uaZbe+"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 22,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FNMrSo4o107Z",
+        "outputId": "0c30843e-71ad-4367-c815-ce0985913ffc"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hola Mundo\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hola Mundo\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "VARIABLES"
+      ],
+      "metadata": {
+        "id": "yn8O3RPA3bjj"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto = \"Mi nombre es Fran\""
+      ],
+      "metadata": {
+        "id": "gecx7Hdd3fZp"
+      },
+      "execution_count": 23,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = 16 # int\n",
+        "decimal = 14.5 # float\n",
+        "verdadero = True # Boolean\n",
+        "falso = False # Boolean"
+      ],
+      "metadata": {
+        "id": "Nb-fv_WG3rQI"
+      },
+      "execution_count": 24,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "STRINGS/METODOS"
+      ],
+      "metadata": {
+        "id": "fpH75p_X5E1A"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto = \"Mi nombre es Fran\"\n",
+        "# Métodos de Strimgs\n",
+        "print(texto.upper())\n",
+        "print(texto.lower())\n",
+        "print(texto.find(\"Fran\"))\n",
+        "nuevoNombre = texto.replace(\"Fran\", \"Francisco\")\n",
+        "print(texto,nuevoNombre)\n",
+        "print(\"Fran\" in texto\") # Fran in texto devuelve True\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "k6hY1ir84PVf",
+        "outputId": "278afdd1-d6b2-4856-e493-2e993dfb1b01"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "MI NOMBRE ES FRAN\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "ARITMETICAS"
+      ],
+      "metadata": {
+        "id": "dWIU2nBo8wkJ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(5 + 15)\n",
+        "print(15 - 5)\n",
+        "print(5 * 15)\n",
+        "print(15 / 5)\n",
+        "print(5 ** 3)\n",
+        "print(10 % 3) # Esto es el módulo, es lo que resta de la divisón entre dos números, en este caso 1 porque 3,3,3 son 9, cuanto me queda para llegar a 10? 1."
+      ],
+      "metadata": {
+        "id": "Ojsxn5F78zdn"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
